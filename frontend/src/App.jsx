@@ -6,20 +6,20 @@ import Footer from "./Components/Footer"
 function App() {
   return (
     
-    <div className='h-screen w-full'>
+    <div className='h-screen w-full flex flex-col bg-blue-900 text-white'>
 
     {/* Header */}
-      <div className='w-full h p-2 bg-zinc-900 text-white'>
+      <div className='w-full bg-blue-950 rounded-lg'>
         <Header />
       </div>
       
       {/* body  */}
-      <div className='w-full h-max p-2 bg-zinc-800  text-white'>
+      <div className='w-full h-5/6  bg-blue-900'>
         <Body />
       </div>
       
       {/* Footer  */}
-      <div className='w-full h-10'>
+      <div className='w-full bg-blue-900  '>
         <Footer />
       </div>
     </div>

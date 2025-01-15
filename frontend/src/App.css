@@ -1,0 +1,13 @@
+/* Remove any unwanted borders from the Quill editor */
+.ql-container {
+    border: none !important; /* Remove the border from Quill container */
+  }
+  
+  .ql-editor {
+    border: none !important; /* Remove border from the editor area */
+  }
+  
+  .ql-toolbar {
+    border: none !important; /* Remove the border from Quill toolbar */
+  }
+  
